@@ -8,6 +8,10 @@ article {
 	margin: auto;
 	margin-top: 1rem;
 	font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* background: transparent; */
 }
 .container {
@@ -33,8 +37,14 @@ article {
     
   }
   h1{
-    color: aliceblue;
+    color: rgba(0, 0, 0, 0.9);
   }
   .display{
     color: black;
+  }
+  @media (max-width: 768px) {
+    article{
+        width: 90%;
+       
+    }
   }

@@ -73,6 +73,7 @@ const search =(e)=>{
   }else{
     setresult('Does not have input')
   }
+  setInput(' ')
 }
 const handleChange = (event) => {
   setInput(event.target.value);
