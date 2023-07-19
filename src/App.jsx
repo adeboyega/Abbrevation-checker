@@ -91,8 +91,14 @@ const handleChange = (event) => {
       <article>
         <h1 className='display'>{capitalizeFirstLetter(result)}</h1>
       </article>
-      <h3>More abbrevations coming soon....</h3>
-      <p>dev: Abayomi Aremo</p>
+      <blockquote>
+      More abbrevations coming soon....
+      <footer>
+      <cite>dev: Abayomi Aremo</cite>
+      </footer>
+      </blockquote>
+      
+      
     </div>
   )
 }
